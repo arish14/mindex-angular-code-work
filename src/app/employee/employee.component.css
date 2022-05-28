@@ -1,0 +1,57 @@
+.employee {
+  margin: 0 1rem;
+  border: 1px solid gray;
+  box-shadow: none;
+  padding: 0;
+}
+
+.employee-card-header {
+  padding-top: 1rem;
+  background-color: #63ADF2;
+}
+
+.mat-header-row {
+  background-color: #304D6D;
+  font-size: 2rem;
+  border-bottom: 1px solid gray;
+}
+
+.direct-reports-row {
+  border-bottom: 1px solid gray;
+}
+
+.direct-reports-row:nth-child(odd) {
+  background: #A7CCED;
+}
+
+.direct-reports-row:last-child {
+  border-bottom: none;
+}
+
+.direct-reports-table {
+  background: none;
+}
+
+.mat-header-cell {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.mat-column-employee {
+  flex-basis: 80%;
+  justify-content: left;
+}
+
+.mat-column-actions {
+  flex-basis: 20%;
+  justify-content: right;
+}
+
+.no-reports-table {
+  width: 100%;
+}
+
+.no-reports-cell {
+  border-bottom: none;
+  font-style: italic;
+}
